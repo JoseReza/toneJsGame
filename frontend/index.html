@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <title>Tone js game</title>
+  </head>
+  <body>
+    <div
+      id="codeEditor"
+      style="
+        position: relative;
+        width: 48%;
+        margin: 1%;
+        height: 40rem;
+        border: 1px;
+        float: left;
+      "
+    ></div>
+    <div
+      id="divConsole"
+      style="
+        position: relative;
+        width: 48%;
+        margin: 1%;
+        height: 40rem;
+        border: 1px;
+        float: left;
+      "
+    ></div>
+
+    <button
+      id="buttonPlay"
+      class="btn btn-dark"
+      style="margin: 1%; width: 98%"
+    >
+      Play
+    </button>
+  </body>
+  <script src="./aceEditor/ace.js"></script>
+  <script src="./aceEditor/mode-html.js"></script>
+  <script src="./aceEditor/theme-chrome.js"></script>
+  <script src="./aceEditor/ext-language_tools.js"></script>
+  <script src="./console.js"></script>
+  <script src="./tone.js"></script>
+  <script src="./utils.js"></script>
+  <script src="./index.js"></script>
+</html>
